@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* SPIE ANDC - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -17,10 +17,10 @@ Coded by www.creative-tim.com
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Material Kit 2 React components
+// SPIE ANDC components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// SPIE ANDC examples
 import RotatingCard from "examples/Cards/RotatingCard";
 import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
 import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
@@ -42,21 +42,21 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Know More
                     <br />
-                    Material Kit
+                    About SPIE
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Connecting minds to advance what's possible with light"
               />
               <RotatingCardBack
                 image={bgBack}
                 title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                description="SPIE is the international society for optics and photonics. We bring engineers, scientists, students, and business professionals together to advance light-based science and technology."
                 action={{
-                  type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  type: "external",
+                  route: "https://spie.org/",
+                  label: "SPIE U.S.A.",
                 }}
               />
             </RotatingCard>
@@ -66,16 +66,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  title="Members"
+                  description="Currently, there are 135+ members affiliated with the SPIE Student Chapter, University of Delhi at Acharya Narendra Dev College."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  title="18+ Ongoing Projects in various Fields"
+                  description="Some chapter members are currently engaged in the Student Author and Researcher Program (SARP), which is overseen by Professor Amit Garg, the faculty advisor for SPIE ANDC."
                 />
               </Grid>
             </Grid>
@@ -83,15 +82,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  title="Researh Publications by Chapter Members"
+                  description="The SPIE Studnet Chapter, ANDC takes immense pride in celebrating the academic achievements of our meritorious students whose exceptional research papers were published in 2023."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  title="M.S. Admissions Abroad"
+                  description="The SPIE Student Chapter, ANDC takes immense pride in announcing the remarkable achievements of its meritorious students who have secured admissions in prestigious international universities for their master's programs"
                 />
               </Grid>
             </Grid>

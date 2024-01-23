@@ -1,6 +1,6 @@
 {
   "short_name": "Material Kit",
-  "name": "Material Kit 2 React",
+  "name": "SPIE ANDC",
   "icons": [
     {
       "src": "favicon.png",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#1A73E8",
+  "theme_color": "#830b0b",
   "background_color": "#ffffff"
 }

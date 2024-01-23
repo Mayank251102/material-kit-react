@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* SPIE ANDC - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -18,10 +18,10 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Divider from "@mui/material/Divider";
 
-// Material Kit 2 React components
+// SPIE ANDC components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// SPIE ANDC examples
 import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
 
 function Counters() {
@@ -31,9 +31,9 @@ function Counters() {
         <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={70}
+              count={13}
               suffix="+"
-              title="Coded Elements"
+              title="Years of Commitment"
               description="From buttons, to inputs, navbars, alerts or cards, you are covered"
             />
           </Grid>
@@ -42,7 +42,7 @@ function Counters() {
             <DefaultCounterCard
               count={15}
               suffix="+"
-              title="Design Blocks"
+              title="Events/ Workshops Every Year"
               description="Mix the sections, change the colors and unleash your creativity"
             />
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
@@ -50,7 +50,8 @@ function Counters() {
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
               count={4}
-              title="Pages"
+              suffix="+"
+              title="Outreach Programmes"
               description="Save 3-4 weeks of work when you use our pre-made pages for your website"
             />
           </Grid>

@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Kit 2 React - v2.1.0
+* SPIE ANDC - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -14,14 +14,16 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base colors for the Material Kit 2 React.
+ * The base colors for the SPIE ANDC.
  * You can add new color using this file.
- * You can customized the colors for the entire Material Kit 2 React using thie file.
+ * You can customized the colors for the entire SPIE ANDC using thie file.
  */
 
 export default {
   background: {
-    default: "#f0f2f5",
+    default: "#383638",
+    main: "#800000",
+    focus: "#800000",
   },
 
   text: {
@@ -36,6 +38,12 @@ export default {
   white: {
     main: "#ffffff",
     focus: "#ffffff",
+  },
+
+  gradient: {
+    light: "#800000",
+    main: "#800000",
+    focus: "#800000",
   },
 
   black: {
@@ -55,7 +63,7 @@ export default {
   },
 
   info: {
-    main: "#1A73E8",
+    main: "#830b0b",
     focus: "#1662C4",
   },
 
@@ -108,8 +116,8 @@ export default {
     },
 
     info: {
-      main: "#49a3f1",
-      state: "#1A73E8",
+      main: "#e82323",
+      state: "#830b0b",
     },
 
     success: {
@@ -245,7 +253,7 @@ export default {
   coloredShadows: {
     primary: "#e91e62",
     secondary: "#110e0e",
-    info: "#00bbd4",
+    info: "#96080c",
     success: "#4caf4f",
     warning: "#ff9900",
     error: "#f44336",

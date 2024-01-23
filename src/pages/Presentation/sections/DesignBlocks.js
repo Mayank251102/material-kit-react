@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* SPIE ANDC - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -20,9 +20,9 @@ import { Link } from "react-router-dom";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Material Kit 2 React components
+// SPIE ANDC components
 import MKBox from "components/MKBox";
-import MKBadge from "components/MKBadge";
+//import MKBadge from "components/MKBadge";
 import MKTypography from "components/MKTypography";
 
 // Presentation page components
@@ -59,30 +59,28 @@ function DesignBlocks() {
   ));
 
   return (
-    <MKBox component="section" my={6} py={6}>
+    <MKBox component="section">
       <Container>
         <Grid
-          container
-          item
           xs={12}
           lg={6}
           flexDirection="column"
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
-          <MKBadge
-            variant="contained"
-            color="info"
-            badgeContent="Infinite combinations"
-            container
-            sx={{ mb: 2 }}
-          />
           <MKTypography variant="h2" fontWeight="bold">
-            Huge collection of sections
+            About Us
           </MKTypography>
+          <br />
           <MKTypography variant="body1" color="text">
-            We have created multiple options for you to put together and customise into pixel
-            perfect pages.
+            SPIE Student Chapter is a program started by SPIE, the International Society for
+            Photo-Optical Instrumentation Engineers with an aim to provide undergraduate students to
+            work beyond the classroom, futuristic and hands-on experience on whatever field of
+            interset they may have pertaining to light. The SPIE Student Chapter University of Delhi
+            at Acharya Narendra Dev College was established on August 6, 2010. The purpose of our
+            chapter is to promote optics and photonics among undergraduate students by providing
+            valuable academic career development through conducting various events, workshops,
+            competitions and activities.
           </MKTypography>
         </Grid>
       </Container>

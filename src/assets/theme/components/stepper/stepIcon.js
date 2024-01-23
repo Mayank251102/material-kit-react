@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Kit 2 React - v2.1.0
+* SPIE ANDC - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -13,10 +13,10 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// Material Kit 2 React base styles
+// SPIE ANDC base styles
 import colors from "assets/theme/base/colors";
 
-// Material Kit 2 React helper functions
+// SPIE ANDC helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 import boxShadow from "assets/theme/functions/boxShadow";
 
@@ -25,9 +25,9 @@ const { white } = colors;
 export default {
   styleOverrides: {
     root: {
-      background: "#9fc9ff",
-      fill: "#9fc9ff",
-      stroke: "#9fc9ff",
+      background: "#df2222",
+      fill: "#df2222",
+      stroke: "#df2222",
       strokeWidth: pxToRem(10),
       width: pxToRem(13),
       height: pxToRem(13),

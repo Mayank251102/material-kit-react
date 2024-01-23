@@ -1,7 +1,7 @@
-const navbarDarkCode = `// Material Kit 2 React components
+const navbarDarkCode = `// SPIE ANDC components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// SPIE ANDC examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes
@@ -15,7 +15,7 @@ function NavbarDark() {
         action={{
           type: "external",
           route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          label: "contact us",
           color: "info",
         }}
         transparent
