@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./styles.css";
+import "../parallex/styles.css";
 
 // import required modules
 import { Parallax, Pagination, Navigation } from "swiper/modules";
@@ -35,7 +35,7 @@ export default function App() {
           }}
           data-swiper-parallax="-23%"
         ></div>
-        <SwiperSlide>
+        <SwiperSlide className="car1">
           <div className="title" data-swiper-parallax="-300">
             Slide 1
           </div>
@@ -53,7 +53,7 @@ export default function App() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="car2">
           <div className="title" data-swiper-parallax="-300">
             Slide 2
           </div>
@@ -71,7 +71,7 @@ export default function App() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="car3">
           <div className="title" data-swiper-parallax="-300">
             Slide 3
           </div>

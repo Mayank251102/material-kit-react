@@ -19,13 +19,15 @@ import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
 import ActiveSlider from "pages/carousels/ActiveSlider.jsx";
-import Parallex from "pages/carousels/parallex/index.jsx";
+import Blackbox from "pages/carousels/blackbox/index.jsx";
 import Index from "pages/carousels/sandbox1/index.jsx";
 
 // SPIE ANDC components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKSocialButton from "components/MKSocialButton";
+//import { CSSTransition } from "react-transition-group";
+//import "./MyComponent.css";
 
 // SPIE ANDC examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
@@ -65,16 +67,27 @@ function Presentation() {
         sticky
       />
       <MKBox
-        minHeight="120vh"
+        minHeight="100%"
         width="100%"
         sx={{
           backgroundImage: `url(${bgImage})`,
           backgroundSize: "cover",
           backgroundPosition: "top",
-          display: "grid",
           placeItems: "center",
+          marginTop: "0vh",
+          flex: "column",
         }}
       >
+        <Blackbox
+          minHeight="200vh"
+          width="100%"
+          sx={{
+            backgroundPosition: "top",
+            display: "grid",
+            placeItems: "center",
+            flex: "column",
+          }}
+        />
         <Container>
           <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
             <MKTypography
@@ -262,8 +275,6 @@ function Presentation() {
         </Container>
       </MKBox>
       <Index />
-      <Parallex />
-
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>

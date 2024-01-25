@@ -1,0 +1,17 @@
+.my-animation-enter {
+    opacity: 0;
+  }
+  
+  .my-animation-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  
+  .my-animation-exit {
+    opacity: 1;
+  }
+  
+  .my-animation-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }

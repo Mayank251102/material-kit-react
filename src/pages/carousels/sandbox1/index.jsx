@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import "./styles.css";
+import "pages/carousels/sandbox1/styles.css";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";

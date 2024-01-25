@@ -5,14 +5,14 @@ import SpaceCity5 from "pages/carousels/constants/Cardassets/SpaceCity5.jpeg";
 import SpaceCity6 from "pages/carousels/constants/Cardassets/SpaceCity6.jpeg";
 import SpaceCity7 from "pages/carousels/constants/Cardassets/SpaceCity7.jpeg";
 import SpaceCity8 from "pages/carousels/constants/Cardassets/SpaceCity8.jpeg";
-import SpaceCity9 from "pages/carousels/constants/Cardassets/SpaceCity9.jpeg";
+//import SpaceCity9 from "pages/carousels/constants/Cardassets/SpaceCity9.jpeg";
 
 export const ServiceData = [
   {
     icon: RxCrop,
     title: "Development",
     content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
-    backgroundImage: SpaceCity9,
+    backgroundImage: "../pages/carousels/constants/Cardassets/SpaceCity9.jpeg",
   },
   {
     icon: RxPencil2,
